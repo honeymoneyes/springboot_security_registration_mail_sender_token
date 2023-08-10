@@ -25,7 +25,7 @@ Create a new PostgreSQL database named "registration".
 ```
 
 ### Configure PostgreSQL Username and Password:
-Open the file server/src/main/resources/application.properties and update the following properties with your PostgreSQL installation details:
+Open the file server/src/main/resources/application.yml and update the following properties with your PostgreSQL installation details:
 
 ```
 spring.datasource.username=YOUR_POSTGRESQL_USERNAME
@@ -42,7 +42,7 @@ $ docker run -p 1080:1080 -p 1025:1025 maildev/maildev
 http://localhost:1080/
 ```
 ### Run the Application Using Maven:
-Open a terminal, navigate to the project root directory (restful_student_application), and run the following command:
+Open a terminal, navigate to the project root directory (registration), and run the following command:
 
 ```
 mvn spring-boot:run
